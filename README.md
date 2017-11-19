@@ -1,1 +1,3 @@
 # gdi-projeto
+
+Nós trabalhamos com apenas uma tabela, Filmes. Na interface tem um campo de texto para o código do roteiro, porém como é apenas para teste, não colocamos isso como chave estrangeira. O usuário pode digitar os dados do filme a ser cadastrado, lembrando que é necessário uma foto para a inserção, isso acontece através de um evento associado ao botão de upload de imagem, que abre uma janela para escolha do arquivo. Se todos os dados necessários estiverem preenchidos a inserção poderá ser feita clicando no botão de inserir. Também colocamos uma Tabela para mostrar todos os filmes consultados, porém só possui 3 colunas, para visualizar a foto de algum filme é necessário escolher o código do filme no JComboBox e clicar no botão de consultar.
